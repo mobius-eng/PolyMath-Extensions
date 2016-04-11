@@ -1,0 +1,14 @@
+{
+	"category" : "Math-Tests-Linear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PMBiCGStabTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

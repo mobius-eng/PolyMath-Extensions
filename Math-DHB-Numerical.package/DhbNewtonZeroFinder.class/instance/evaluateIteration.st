@@ -11,6 +11,7 @@ evaluateIteration
 	g1 := lineSearchFunctionBlock value: 1.
 	"Get coefficient of the step from line search: 0 < coefficient <= 1; newFunctionValue is updated as well"
 	coefficient := lineSearch setValueAtZero: g0 derivativeAtZero: dg0 valueAtOne: g1; evaluate.
+	lineSearch hasConverged ifFalse: [ PMStopIterations new signal ].
 	searchStep := coefficient * searchStep.
 	result := result + searchStep.
 	^ self relativePrecision: (searchStep abs max: newFunctionValue abs)

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"defaultMaximumIterations" : "StephaneDucasse 3/1/2016 22:03",
+		"defaultPrecision" : "StephaneDucasse 3/1/2016 22:03" },
+	"instance" : {
+		"desiredPrecision:" : "StephaneDucasse 3/1/2016 21:46",
+		"evaluate" : "MobiusEng 4/11/2016 13:45",
+		"evaluateIteration" : "StephaneDucasse 3/1/2016 21:47",
+		"finalizeIterations" : "StephaneDucasse 3/1/2016 21:47",
+		"hasConverged" : "StephaneDucasse 3/1/2016 21:47",
+		"initialize" : "StephaneDucasse 3/2/2016 09:10",
+		"initializeIterations" : "StephaneDucasse 3/1/2016 21:47",
+		"iterations" : "StephaneDucasse 3/1/2016 21:47",
+		"limitedSmallValue:" : "StephaneDucasse 3/1/2016 21:47",
+		"maximumIterations:" : "StephaneDucasse 3/1/2016 21:51",
+		"precision" : "StephaneDucasse 3/1/2016 21:51",
+		"precisionOf:relativeTo:" : "StephaneDucasse 3/1/2016 21:51",
+		"privateEvaluate" : "MobiusEng 4/11/2016 16:55",
+		"result" : "StephaneDucasse 3/1/2016 21:51" } }

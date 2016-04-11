@@ -1,0 +1,1 @@
+I am used to interrupt iterative process: if signalled, iterative process will terminate (as if normally)

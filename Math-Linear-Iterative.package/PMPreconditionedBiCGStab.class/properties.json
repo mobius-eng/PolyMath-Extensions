@@ -1,0 +1,14 @@
+{
+	"category" : "Math-Linear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"preconditioner" ],
+	"name" : "PMPreconditionedBiCGStab",
+	"pools" : [
+		 ],
+	"super" : "PMBiCGStab",
+	"type" : "normal" }

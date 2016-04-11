@@ -14,6 +14,6 @@ evaluateIteration
 			a := tmp1 - tmp2.
 			b := result * tmp2 - previousResult * tmp1.
 			nextX := (b negated + (b squared - (3.0 * a * derivativeAtZero) sqrt)) / (3.0 * a) min: 0.5 * result max: 0.1 * result.
-			nextX < failingMin ifTrue: [ self error: 'next x is too small: cannot minimize' ] ].
+			nextX < failingMin ifTrue: [ PMStopIterations new signal ] ].
 	self updateResult: nextX.
 	^ valueAtResult - (alpha * derivativeAtZero + valueAtZero)

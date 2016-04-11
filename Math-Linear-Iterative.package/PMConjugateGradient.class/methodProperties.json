@@ -3,9 +3,4 @@
 		 },
 	"instance" : {
 		"computeInitialValues" : "MobiusEng 4/8/2016 22:24",
-		"evaluateIteration" : "MobiusEng 4/8/2016 22:25",
-		"initialValue:" : "MobiusEng 4/8/2016 22:26",
-		"linearOperator:" : "MobiusEng 4/8/2016 22:26",
-		"residualError" : "MobiusEng 4/8/2016 22:27",
-		"rightHandSideVector" : "MobiusEng 4/8/2016 22:27",
-		"rightHandSideVector:" : "MobiusEng 4/8/2016 22:28" } }
+		"evaluateIteration" : "MobiusEng 4/8/2016 22:25" } }

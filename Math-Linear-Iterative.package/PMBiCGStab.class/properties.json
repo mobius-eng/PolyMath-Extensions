@@ -4,16 +4,17 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MobiusEng 4/11/2016 14:43",
 	"instvars" : [
-		"residual",
+		"initResidual",
 		"searchDirection",
 		"residualChangeDirection",
-		"residualSquared",
-		"beta",
-		"rightHandSideVector" ],
+		"alpha",
+		"rho",
+		"omega",
+		"rhsSquared" ],
 	"name" : "PMBiCGStab",
 	"pools" : [
 		 ],
-	"super" : "DhbFunctionalIterator",
+	"super" : "PMLinearIterative",
 	"type" : "normal" }

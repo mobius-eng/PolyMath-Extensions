@@ -1,0 +1,14 @@
+{
+	"category" : "Math-Core-Process",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MobiusEng 4/11/2016 14:28",
+	"instvars" : [
+		 ],
+	"name" : "PMRestartIterations",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"type" : "normal" }
