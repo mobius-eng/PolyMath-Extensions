@@ -1,0 +1,15 @@
+{
+	"category" : "Math-DHB-Numerical-Math-Interpolator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"startPointDerivative",
+		"endPointDerivative" ],
+	"name" : "DhbSplineInterpolator",
+	"pools" : [
+		 ],
+	"super" : "DhbNewtonInterpolator",
+	"type" : "normal" }

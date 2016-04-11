@@ -1,0 +1,14 @@
+{
+	"category" : "Math-Linear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MobiusEng 4/8/2016 22:22",
+	"instvars" : [
+		 ],
+	"name" : "PMConjugateGradientL2",
+	"pools" : [
+		 ],
+	"super" : "PMConjugateGradient",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Math-DHB-Numerical",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"histogram" ],
+	"name" : "DhbHistogrammedDistribution",
+	"pools" : [
+		 ],
+	"super" : "DhbProbabilityDensity",
+	"type" : "normal" }

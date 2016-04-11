@@ -1,0 +1,14 @@
+{
+	"category" : "Math-DHB-Numerical-Math-Interpolator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 3/2/2016 19:50",
+	"instvars" : [
+		"pointCollection" ],
+	"name" : "DhbLagrangeInterpolator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

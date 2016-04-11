@@ -1,0 +1,16 @@
+{
+	"category" : "Math-DHB-Numerical",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lowLimit",
+		"highLimit",
+		"peak" ],
+	"name" : "DhbTriangularDistribution",
+	"pools" : [
+		 ],
+	"super" : "DhbProbabilityDensity",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Math-Linear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MobiusEng 4/8/2016 22:21",
+	"instvars" : [
+		"absTolerance",
+		"relTolerance",
+		"reference" ],
+	"name" : "PMConjugateGradientEWT",
+	"pools" : [
+		 ],
+	"super" : "PMConjugateGradient",
+	"type" : "normal" }

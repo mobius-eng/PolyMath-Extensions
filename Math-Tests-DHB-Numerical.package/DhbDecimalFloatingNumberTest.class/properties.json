@@ -1,0 +1,14 @@
+{
+	"category" : "Math-Tests-DHB-Numerical",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "DhbDecimalFloatingNumberTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Math-DHB-Numerical-Math-FunctionIterator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"unidimensionalFinder" ],
+	"name" : "DhbHillClimbingOptimizer",
+	"pools" : [
+		 ],
+	"super" : "DhbFunctionOptimizer",
+	"type" : "normal" }

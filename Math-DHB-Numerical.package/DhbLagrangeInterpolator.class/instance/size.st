@@ -1,0 +1,4 @@
+information
+size
+
+	^pointCollection size

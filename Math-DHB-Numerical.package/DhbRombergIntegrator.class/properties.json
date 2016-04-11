@@ -1,0 +1,16 @@
+{
+	"category" : "Math-DHB-Numerical",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"order",
+		"points",
+		"interpolator" ],
+	"name" : "DhbRombergIntegrator",
+	"pools" : [
+		 ],
+	"super" : "DhbTrapezeIntegrator",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Math-DHB-Numerical-Math-FunctionIterator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"positiveX",
+		"negativeX" ],
+	"name" : "DhbBisectionZeroFinder",
+	"pools" : [
+		 ],
+	"super" : "DhbFunctionalIterator",
+	"type" : "normal" }

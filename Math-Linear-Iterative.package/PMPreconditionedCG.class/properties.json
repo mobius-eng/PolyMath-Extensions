@@ -1,0 +1,15 @@
+{
+	"category" : "Math-Linear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"preconditioner",
+		"conditionedResidual" ],
+	"name" : "PMPreconditionedCG",
+	"pools" : [
+		 ],
+	"super" : "PMConjugateGradient",
+	"type" : "normal" }

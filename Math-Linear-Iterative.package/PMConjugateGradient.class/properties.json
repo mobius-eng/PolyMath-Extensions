@@ -1,0 +1,19 @@
+{
+	"category" : "Math-Linear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MobiusEng 4/8/2016 22:37",
+	"instvars" : [
+		"residual",
+		"searchDirection",
+		"residualChangeDirection",
+		"residualSquared",
+		"beta",
+		"rightHandSideVector" ],
+	"name" : "PMConjugateGradient",
+	"pools" : [
+		 ],
+	"super" : "DhbFunctionalIterator",
+	"type" : "normal" }

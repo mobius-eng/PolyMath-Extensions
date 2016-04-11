@@ -1,0 +1,16 @@
+{
+	"category" : "Math-DHB-Numerical",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"alpha",
+		"beta",
+		"norm" ],
+	"name" : "DhbWeibullDistribution",
+	"pools" : [
+		 ],
+	"super" : "DhbProbabilityDensity",
+	"type" : "normal" }

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"initialPoints:function:" : "DanielUber 5/31/2012 12:05:19.968" },
+	"instance" : {
+		"computeInitialValues" : "DanielUber 5/31/2012 12:05:19.968",
+		"evaluateIteration" : "DanielUber 5/31/2012 12:05:19.968",
+		"finalizeIterations" : "DanielUber 5/31/2012 12:05:19.968",
+		"initializeForOptimizer:" : "DanielUber 5/31/2012 12:05:19.968",
+		"setInitialPoints:" : "DanielUber 5/31/2012 12:05:19.968" } }

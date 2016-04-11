@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"histogram:distributionClass:" : "DanielUber 5/31/2012 12:05:19.968",
+		"points:function:" : "wernerkassens 10/29/2014 15:34" },
+	"instance" : {
+		"accumulate:" : "DanielUber 5/31/2012 12:05:19.968",
+		"accumulateEquationSystem" : "DanielUber 5/31/2012 12:05:19.968",
+		"chiSquare" : "DanielUber 5/31/2012 12:05:19.968",
+		"computeChanges" : "WernerKassens 4/6/2014 22:36",
+		"computeChiSquare" : "DanielUber 5/31/2012 12:05:19.968",
+		"computeEquationSystem" : "DanielUber 5/31/2012 12:05:19.968",
+		"confidenceLevel" : "DanielUber 5/31/2012 12:05:19.968",
+		"degreeOfFreedom" : "DanielUber 5/31/2012 12:05:19.968",
+		"errorMatrix" : "WernerKassens 5/2/2014 08:41",
+		"evaluateIteration" : "DanielUber 5/31/2012 12:05:19.968",
+		"finalizeIterations" : "DanielUber 5/31/2012 12:05:19.968",
+		"fitType" : "DanielUber 5/31/2012 12:05:19.968",
+		"initialize:data:" : "DanielUber 5/31/2012 12:05:19.968",
+		"initializeIterations" : "DanielUber 5/31/2012 12:05:19.968",
+		"numberOfFreeParameters" : "DanielUber 5/31/2012 12:05:19.968",
+		"numberOfParameters" : "DanielUber 5/31/2012 12:05:19.968",
+		"value:" : "DanielUber 5/31/2012 12:05:19.968",
+		"valueAndError:" : "DanielUber 5/31/2012 12:05:19.968" } }

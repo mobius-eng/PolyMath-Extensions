@@ -1,0 +1,15 @@
+{
+	"category" : "Math-DHB-Numerical",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UniqueInstance" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"coefficients",
+		"sqrt2Pi" ],
+	"name" : "DhbLanczosFormula",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

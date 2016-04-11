@@ -1,0 +1,14 @@
+{
+	"category" : "Math-Linear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PMPreconditioner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

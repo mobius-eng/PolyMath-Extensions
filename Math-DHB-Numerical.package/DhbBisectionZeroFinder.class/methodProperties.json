@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"computeInitialValues" : "DanielUber 5/31/2012 12:05:19.968",
+		"evaluateIteration" : "DanielUber 5/31/2012 12:05:19.968",
+		"findNegativeXFrom:range:" : "DanielUber 5/31/2012 12:05:19.968",
+		"findPositiveXFrom:range:" : "DanielUber 5/31/2012 12:05:19.968",
+		"setNegativeX:" : "DanielUber 5/31/2012 12:05:19.968",
+		"setPositiveX:" : "DanielUber 5/31/2012 12:05:19.968" } }

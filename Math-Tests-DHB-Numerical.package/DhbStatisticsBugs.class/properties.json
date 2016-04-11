@@ -1,0 +1,14 @@
+{
+	"category" : "Math-Tests-DHB-Numerical",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DhbStatisticsBugs",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

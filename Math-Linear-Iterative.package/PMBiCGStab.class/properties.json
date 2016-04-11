@@ -1,0 +1,19 @@
+{
+	"category" : "Math-Linear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"residual",
+		"searchDirection",
+		"residualChangeDirection",
+		"residualSquared",
+		"beta",
+		"rightHandSideVector" ],
+	"name" : "PMBiCGStab",
+	"pools" : [
+		 ],
+	"super" : "DhbFunctionalIterator",
+	"type" : "normal" }

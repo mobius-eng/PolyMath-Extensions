@@ -1,0 +1,14 @@
+{
+	"category" : "Math-DHB-Numerical-Math-FunctionIterator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "WernerKassens 9/16/2015 17:19",
+	"instvars" : [
+		"old" ],
+	"name" : "CdfNewtonZeroFinder",
+	"pools" : [
+		 ],
+	"super" : "DhbNewtonZeroFinder",
+	"type" : "normal" }

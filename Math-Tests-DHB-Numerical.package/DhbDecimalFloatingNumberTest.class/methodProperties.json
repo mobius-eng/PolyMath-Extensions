@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAdd" : "StephaneDucasse 3/26/2016 14:37",
+		"testDigits" : "StephaneDucasse 3/26/2016 14:37",
+		"testDisplay" : "StephaneDucasse 3/26/2016 14:37",
+		"testDivide" : "StephaneDucasse 3/26/2016 14:37",
+		"testMultiply" : "StephaneDucasse 3/26/2016 14:37",
+		"testRoundingErrors" : "StephaneDucasse 3/26/2016 14:37",
+		"testSqrt" : "StephaneDucasse 3/26/2016 14:37",
+		"testSubtract" : "StephaneDucasse 3/26/2016 14:37" } }

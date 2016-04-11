@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"defaultPrecision" : "DanielUber 5/31/2012 12:05:19.968" },
+	"instance" : {
+		"buildInitialSimplex" : "DanielUber 5/31/2012 12:05:19.968",
+		"computeInitialValues" : "DanielUber 5/31/2012 12:05:19.968",
+		"computePrecision" : "DanielUber 5/31/2012 12:05:19.968",
+		"contract" : "DanielUber 5/31/2012 12:05:19.968",
+		"contract:around:" : "DanielUber 5/31/2012 12:05:19.968",
+		"evaluateIteration" : "DanielUber 5/31/2012 12:05:19.968",
+		"printOn:" : "DanielUber 5/31/2012 12:05:19.968" } }

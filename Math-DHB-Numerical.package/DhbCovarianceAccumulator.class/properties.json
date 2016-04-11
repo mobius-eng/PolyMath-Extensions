@@ -1,0 +1,14 @@
+{
+	"category" : "Math-DHB-Numerical-Math-UtilsAccumulator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"covariance" ],
+	"name" : "DhbCovarianceAccumulator",
+	"pools" : [
+		 ],
+	"super" : "DhbVectorAccumulator",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Math-Linear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"diagonal",
+		"inverseDiagonal" ],
+	"name" : "PMDiagonalPreconditioner",
+	"pools" : [
+		 ],
+	"super" : "PMPreconditioner",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Math-Tests-Linear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MobiusEng 4/8/2016 22:32",
+	"instvars" : [
+		 ],
+	"name" : "PMConjugateGradientTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

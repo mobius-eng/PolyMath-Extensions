@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAsArray" : "StephaneDucasse 3/26/2016 14:37",
+		"testScalarProduct" : "StephaneDucasse 3/26/2016 14:37",
+		"testScalarProductIsCommutative" : "StephaneDucasse 3/26/2016 14:37",
+		"testVectorNegate" : "StephaneDucasse 3/26/2016 14:37",
+		"testVectorNorm" : "StephaneDucasse 3/26/2016 14:37",
+		"testVectorOperation" : "StephaneDucasse 3/26/2016 14:37",
+		"testVectorOperationInverse" : "StephaneDucasse 3/26/2016 14:37",
+		"testVectorProduct" : "StephaneDucasse 3/26/2016 14:37" } }

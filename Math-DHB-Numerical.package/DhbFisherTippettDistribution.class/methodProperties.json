@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"distributionName" : "SergeStinckwich 4/3/2016 18:18",
+		"fromHistogram:" : "SergeStinckwich 4/3/2016 18:18",
+		"new" : "SergeStinckwich 4/3/2016 18:18",
+		"shape:scale:" : "SergeStinckwich 4/3/2016 18:18" },
+	"instance" : {
+		"average" : "SergeStinckwich 4/3/2016 18:16",
+		"changeParametersBy:" : "SergeStinckwich 4/3/2016 18:16",
+		"distributionValue:" : "WernerKassens 9/10/2015 09:23",
+		"initialize:scale:" : "SergeStinckwich 4/3/2016 18:29",
+		"integralFrom:to:" : "SergeStinckwich 4/3/2016 18:17",
+		"integralUpTo:" : "SergeStinckwich 4/3/2016 18:17",
+		"kurtosis" : "SergeStinckwich 4/3/2016 18:17",
+		"parameters" : "SergeStinckwich 4/3/2016 18:17",
+		"random" : "SergeStinckwich 4/3/2016 18:17",
+		"skewness" : "SergeStinckwich 4/3/2016 18:17",
+		"standardDeviation" : "SergeStinckwich 4/3/2016 18:17",
+		"value:" : "SergeStinckwich 4/3/2016 18:17",
+		"valueAndGradient:" : "SergeStinckwich 4/3/2016 18:17" } }

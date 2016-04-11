@@ -1,0 +1,4 @@
+operations
+count
+	
+	^count

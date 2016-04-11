@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"fromMatrix:" : "MobiusEng 4/9/2016 22:43" },
+	"instance" : {
+		"applyDirect:" : "MobiusEng 4/9/2016 16:42",
+		"applyInverse:" : "MobiusEng 4/9/2016 16:41",
+		"diagonal:" : "MobiusEng 4/9/2016 16:41" } }

@@ -1,0 +1,4 @@
+information
+distributionName
+	
+	^'Cauchy distribution'

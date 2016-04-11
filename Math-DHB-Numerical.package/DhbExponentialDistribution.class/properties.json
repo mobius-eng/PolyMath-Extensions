@@ -1,0 +1,14 @@
+{
+	"category" : "Math-DHB-Numerical-Math-Distribution",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"beta" ],
+	"name" : "DhbExponentialDistribution",
+	"pools" : [
+		 ],
+	"super" : "DhbProbabilityDensity",
+	"type" : "normal" }

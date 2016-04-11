@@ -1,0 +1,3 @@
+operation
+residualError
+	^ residualSquared sqrt

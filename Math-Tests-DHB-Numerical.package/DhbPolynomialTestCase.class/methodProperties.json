@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testIsZero" : "StephaneDucasse 3/26/2016 14:30",
+		"testPolynomialAddition" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialDerivative" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialDivision" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialDivisionBug" : "DanielUber 5/31/2012 09:11",
+		"testPolynomialDoubleDispatch" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialEvaluation" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialHash" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialIntegral" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialIntegralWithConstant" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialMultiplication" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialNumberAddition" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialNumberAdditionInverse" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialNumberDivision" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialNumberMultiplication" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialNumberMultiplicationInverse" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialNumberSubtraction" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialNumberSubtractionInverse" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialPrintOn" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialRoots" : "StephaneDucasse 3/26/2016 14:37",
+		"testPolynomialSubtraction" : "StephaneDucasse 3/26/2016 14:37" } }

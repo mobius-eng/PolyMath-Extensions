@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"new" : "DanielUber 5/31/2012 12:05:19.968" },
+	"instance" : {
+		"add:" : "DanielUber 5/31/2012 12:05:19.968",
+		"add:weight:" : "DanielUber 5/31/2012 12:05:19.968",
+		"asEstimatedPolynomial" : "DanielUber 5/31/2012 12:05:19.968",
+		"asPolynomial" : "DanielUber 5/31/2012 12:05:19.968",
+		"coefficients" : "DanielUber 5/31/2012 12:05:19.968",
+		"computeResults" : "DanielUber 5/31/2012 12:05:19.968",
+		"correlationCoefficient" : "DanielUber 5/31/2012 12:05:19.968",
+		"errorMatrix" : "DanielUber 5/31/2012 12:05:19.968",
+		"errorOnIntercept" : "DanielUber 5/31/2012 12:05:19.968",
+		"errorOnSlope" : "DanielUber 5/31/2012 12:05:19.968",
+		"intercept" : "DanielUber 5/31/2012 12:05:19.968",
+		"remove:" : "DanielUber 5/31/2012 12:05:19.968",
+		"reset" : "DanielUber 5/31/2012 12:05:19.968",
+		"resetResults" : "DanielUber 5/31/2012 12:05:19.968",
+		"slope" : "DanielUber 5/31/2012 12:05:19.968",
+		"value:" : "DanielUber 5/31/2012 12:05:19.968" } }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"computeDifference:at:order:" : "StephaneDucasse 3/2/2016 19:51",
+		"defaultSamplePoints" : "StephaneDucasse 3/2/2016 19:53",
+		"initialize" : "DanielUber 5/31/2012 12:05:19.968",
+		"initializeDifferences:" : "StephaneDucasse 3/2/2016 19:53",
+		"value:" : "StephaneDucasse 3/2/2016 19:53",
+		"valueAndError:" : "StephaneDucasse 3/2/2016 19:53" } }

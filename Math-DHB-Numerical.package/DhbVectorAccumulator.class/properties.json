@@ -1,0 +1,15 @@
+{
+	"category" : "Math-DHB-Numerical-Math-UtilsAccumulator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 3/2/2016 15:12",
+	"instvars" : [
+		"count",
+		"average" ],
+	"name" : "DhbVectorAccumulator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

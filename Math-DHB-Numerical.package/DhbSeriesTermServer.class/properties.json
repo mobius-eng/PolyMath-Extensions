@@ -1,0 +1,15 @@
+{
+	"category" : "Math-DHB-Numerical",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"x",
+		"lastTerm" ],
+	"name" : "DhbSeriesTermServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

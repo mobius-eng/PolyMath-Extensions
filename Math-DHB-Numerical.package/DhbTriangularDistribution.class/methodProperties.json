@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"distributionName" : "DanielUber 5/31/2012 12:05:19.968",
+		"fromHistogram:" : "DanielUber 5/31/2012 12:05:19.968",
+		"new" : "DanielUber 5/31/2012 12:05:19.968",
+		"new:from:to:" : "DanielUber 5/31/2012 12:05:19.968" },
+	"instance" : {
+		"average" : "DanielUber 5/31/2012 12:05:19.968",
+		"changeParametersBy:" : "DanielUber 5/31/2012 12:05:19.968",
+		"distributionValue:" : "DanielUber 5/31/2012 12:05:19.968",
+		"initialize:from:to:" : "DanielUber 5/31/2012 12:05:19.968",
+		"inverseAcceptanceAfterPeak:" : "DanielUber 5/31/2012 12:05:19.968",
+		"inverseAcceptanceBeforePeak:" : "DanielUber 5/31/2012 12:05:19.968",
+		"kurtosis" : "DanielUber 5/31/2012 12:05:19.968",
+		"parameters" : "DanielUber 5/31/2012 12:05:19.968",
+		"privateInverseDistributionValue:" : "DanielUber 5/31/2012 12:05:19.968",
+		"skewness" : "DanielUber 5/31/2012 12:05:19.968",
+		"value:" : "DanielUber 5/31/2012 12:05:19.968",
+		"variance" : "DanielUber 5/31/2012 12:05:19.968" } }

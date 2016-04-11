@@ -1,0 +1,14 @@
+{
+	"category" : "Math-DHB-Numerical-Math-FunctionIterator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DhbMultiVariableGeneralOptimizer",
+	"pools" : [
+		 ],
+	"super" : "DhbFunctionOptimizer",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "Math-DHB-Numerical",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dataHolder",
+		"errorMatrix",
+		"chiSquare",
+		"equations",
+		"constants",
+		"degreeOfFreedom" ],
+	"name" : "DhbLeastSquareFit",
+	"pools" : [
+		 ],
+	"super" : "DhbIterativeProcess",
+	"type" : "normal" }

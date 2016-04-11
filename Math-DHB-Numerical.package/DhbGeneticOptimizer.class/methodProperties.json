@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"defaultMaximumIterations" : "DanielUber 5/31/2012 12:05:19.968",
+		"defaultPrecision" : "DanielUber 5/31/2012 12:05:19.968" },
+	"instance" : {
+		"addPointAt:" : "DanielUber 5/31/2012 12:05:19.968",
+		"chromosomeManager:" : "DanielUber 5/31/2012 12:05:19.968",
+		"collectPoints" : "wernerkassens 10/29/2014 15:10",
+		"computePrecision" : "DanielUber 5/31/2012 12:05:19.968",
+		"evaluateIteration" : "DanielUber 5/31/2012 12:05:19.968",
+		"initializeIterations" : "DanielUber 5/31/2012 12:05:19.968",
+		"processRandomParents:" : "DanielUber 5/31/2012 12:05:19.968",
+		"randomIndex:" : "DanielUber 5/31/2012 12:05:19.968",
+		"randomScale" : "DanielUber 5/31/2012 12:05:19.968" } }

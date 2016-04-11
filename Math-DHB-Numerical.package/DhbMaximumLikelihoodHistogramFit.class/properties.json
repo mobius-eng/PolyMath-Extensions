@@ -1,0 +1,15 @@
+{
+	"category" : "Math-DHB-Numerical",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"count",
+		"countVariance" ],
+	"name" : "DhbMaximumLikelihoodHistogramFit",
+	"pools" : [
+		 ],
+	"super" : "DhbLeastSquareFit",
+	"type" : "normal" }
