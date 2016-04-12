@@ -2,7 +2,8 @@ operation
 evaluateIteration
 	| alpha newResidualSquared |
 	"p = r + beta * p"
-	1 to: result size do: [ :n | searchDirection at: n put: (beta * (searchDirection at: n) + (residual at: n)) ].
+	1 to: result size do: [ :n |
+		searchDirection at: n put: (beta * (searchDirection at: n) + (residual at: n)) ].
 	"ap = A * p"
 	residualChangeDirection := functionBlock value: searchDirection.
 	"alpha = (r,r) / (p, ap)"

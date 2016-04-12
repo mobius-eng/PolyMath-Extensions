@@ -4,7 +4,7 @@ evaluateIteration
 	newRho := initResidual * residual.
 	"Restart if newRho became too small"
 	newRho abs < (DhbFloatingPointMachine new defaultNumericalPrecision * rhsSquared)
-		ifTrue: [ PMRestartIterations new signal ].
+		ifTrue: [ self initializeIterations. ^ self evaluateIteration ].
 	beta := (newRho / rho) * (alpha / omega).
 	rho := newRho.
 	searchDirection := beta * (searchDirection - (omega * residualChangeDirection )) + residual.
