@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"shape:shape:" : "StephaneDucasse 7/14/2015 13:32" },
-	"instance" : {
-		"evaluateIteration" : "SergeStinckwich 4/5/2016 14:25",
-		"initialize:shape:" : "SergeStinckwich 4/5/2016 14:25",
-		"initializeIterations" : "SergeStinckwich 4/5/2016 14:25",
-		"setArgument:" : "SergeStinckwich 4/5/2016 14:25" } }
