@@ -7,7 +7,7 @@ privateEvaluate
 			iterations := iterations + 1.
 			precision := self evaluateIteration.
 			self hasConverged or: [ iterations >= maximumIterations ]
-		] whileFalse: []
+		] whileFalse
 	] on: PMStopIterations do: [ :exception | ].
 	self finalizeIterations.
 	^self result
