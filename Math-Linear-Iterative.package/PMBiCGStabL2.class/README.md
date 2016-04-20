@@ -1,1 +1,0 @@
-I implement Euclidean (L2) norm `residualError` for BiCGStab algorithm

@@ -13,9 +13,7 @@ testLargeMatrix
 			(i - j) = 100 ifTrue: [ matrix at: i at: j put: 1.0 ] ] ].
 	rhsVector := DhbVector new: size withAll: 1.0.
 	initValue := DhbVector new: size withAll: 1.0.
-	cg := PMBiCGStabL2 new.
-	cg linearOperator: matrix; rightHandSideVector: rhsVector; initialValue: initValue.
-	cg desiredPrecision: 1e-6.
+	cg := PMBiCGStab ewtRMSSolverFor: matrix rightHandSide: rhsVector initialValue: initValue.
 	cg maximumIterations: 20.
 	result := cg evaluate.
 	self assert: cg hasConverged not.

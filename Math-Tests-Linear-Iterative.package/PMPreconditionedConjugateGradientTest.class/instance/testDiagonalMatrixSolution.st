@@ -7,9 +7,7 @@ testDiagonalMatrixSolution
 	solution := #(1 1 1) asDhbVector.
 	initValue := #(5 5 5) asDhbVector.
 	preconditioner := PMIdentityPreconditioner new.
-	cg := PMPreconditionedCGL2 new.
-	cg linearOperator: matrix; rightHandSideVector: rhsVector; initialValue: initValue.
-	cg desiredPrecision: DhbFloatingPointMachine new defaultNumericalPrecision.
+	cg := PMPreconditionedCG l2NormSolverFor: matrix rightHandSide: rhsVector initialValue: initValue.
 	cg preconditioner: preconditioner.
 	result := cg evaluate - solution.
 	self assert: cg hasConverged.

@@ -1,0 +1,1 @@
+I implement Error-weight-vector for root-mean-square error estimate

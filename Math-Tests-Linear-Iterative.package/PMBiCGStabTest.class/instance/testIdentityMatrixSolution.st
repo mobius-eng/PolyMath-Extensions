@@ -5,10 +5,8 @@ testIdentityMatrixSolution
 	matrix := DhbMatrix rows: #(#(1 0 0) (0 1 0) (0 0 1)).
 	rhsVector := #(1 2 3) asDhbVector.
 	initValue := #(5 5 5) asDhbVector.
-	cg := PMBiCGStabL2 new.
-	cg linearOperator: matrix; rightHandSideVector: rhsVector; initialValue: initValue.
-	cg desiredPrecision: DhbFloatingPointMachine new defaultNumericalPrecision.
+	cg := PMBiCGStab l1NormSolverFor: matrix rightHandSide: rhsVector initialValue: initValue.
 	result := cg evaluate - rhsVector.
 	self assert: cg hasConverged.
-	self assert: (result * result) sqrt <= DhbFloatingPointMachine new defaultNumericalPrecision.
+	self assert: (PML1Norm new norm: result) <= DhbFloatingPointMachine new defaultNumericalPrecision.
 	

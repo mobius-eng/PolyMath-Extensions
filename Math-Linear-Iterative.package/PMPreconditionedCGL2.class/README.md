@@ -1,1 +1,0 @@
-I implement Euclidean norm for `residualError` for preconditioned CG method

@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testDiagonalMatrixSolution" : "MobiusEng 4/8/2016 22:33",
-		"testDiffusionProblem" : "MobiusEng 4/8/2016 22:33",
-		"testIdentityMatrixSolution" : "MobiusEng 4/8/2016 22:34",
-		"testLargeMatrix" : "MobiusEng 4/11/2016 17:10",
-		"testSymmetricMatrixSolution" : "MobiusEng 4/8/2016 22:35" } }
+		"testDiagonalMatrixSolutionL1" : "MobiusEng 4/20/2016 15:10",
+		"testDiagonalMatrixSolutionL2" : "MobiusEng 4/20/2016 15:09",
+		"testDiffusionProblem" : "MobiusEng 4/20/2016 15:12",
+		"testIdentityMatrixSolution" : "MobiusEng 4/20/2016 15:14",
+		"testLargeMatrix" : "MobiusEng 4/20/2016 15:15",
+		"testSymmetricMatrixSolution" : "MobiusEng 4/20/2016 15:16" } }

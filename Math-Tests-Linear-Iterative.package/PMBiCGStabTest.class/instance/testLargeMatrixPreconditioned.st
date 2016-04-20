@@ -13,15 +13,13 @@ testLargeMatrixPreconditioned
 			(i - j) = 100 ifTrue: [ matrix at: i at: j put: 1.0 ] ] ].
 	rhsVector := DhbVector new: size withAll: 1.0.
 	initValue := DhbVector new: size withAll: 1.0.
-	cg := PMPreconditionedBiCGStabL2 new.
-	cg linearOperator: matrix; rightHandSideVector: rhsVector; initialValue: initValue.
-	"Have to limit the precision: roundoff error on individial vector items starts dominating"
-	cg desiredPrecision: 1e-6.
+	cg := PMPreconditionedBiCGStab ewtRMSSolverFor: matrix rightHandSide: rhsVector initialValue: initValue.
 	cg maximumIterations: 20.
 	cg preconditioner: (PMDiagonalPreconditioner fromMatrix: matrix).
 	result := cg evaluate.
 	residual := rhsVector - (matrix * result).
 	self assert: cg hasConverged.
-	self assert: cg residualError < 1e-6.
-	self assert: (residual * residual) sqrt < 1e-6.
+	self assert: cg residualError <= 1.
+	self assert: (PMErrorWeightVectorNorm new defaultOfSize: rhsVector size; reference: rhsVector; norm: residual) <= 1.
+	"self assert: (residual * residual) sqrt < 1e-6."
 	

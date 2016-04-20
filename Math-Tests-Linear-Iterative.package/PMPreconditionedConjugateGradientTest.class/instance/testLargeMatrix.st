@@ -13,12 +13,10 @@ testLargeMatrix
 	rhsVector := DhbVector new: size withAll: 1.0.
 	initValue := DhbVector new: size withAll: 1.0.
 	preconditioner := PMDiagonalPreconditioner fromMatrix: matrix.
-	cg := PMPreconditionedCGL2 new.
-	cg linearOperator: matrix; rightHandSideVector: rhsVector; initialValue: initValue.
-	cg desiredPrecision: 1e-6.
+	cg := PMPreconditionedCG ewtRMSSolverFor: matrix rightHandSide: rhsVector initialValue: initValue.
 	cg preconditioner: preconditioner; maximumIterations: 20.
 	result := cg evaluate.
 	self assert: cg hasConverged.
 	tmp := matrix * result - rhsVector.
-	self assert: (tmp * tmp) sqrt <= 1e-6.
+	self assert: (PMErrorWeightVectorNorm new defaultOfSize: rhsVector size; reference: rhsVector; norm: tmp) <= 1.
 	

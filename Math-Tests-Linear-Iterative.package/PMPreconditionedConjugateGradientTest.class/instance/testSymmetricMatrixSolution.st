@@ -11,11 +11,9 @@ testSymmetricMatrixSolution
 	solution := #(2 0 1 3 -1) asDhbVector.
 	initValue := #(1 1 1 1 1) asDhbVector.
 	preconditioner := PMDiagonalPreconditioner fromMatrix: matrix.
-	cg := PMPreconditionedCGL2 new.
-	cg linearOperator: matrix; rightHandSideVector: rhsVector; initialValue: initValue.
-	cg desiredPrecision: DhbFloatingPointMachine new defaultNumericalPrecision.
+	cg := PMPreconditionedCG l1NormSolverFor: matrix rightHandSide: rhsVector initialValue: initValue.
 	cg preconditioner: preconditioner.
 	result := cg evaluate - solution.
 	self assert: cg hasConverged.
-	self assert: (result * result) sqrt <= DhbFloatingPointMachine new defaultNumericalPrecision.
+	self assert: (PML1Norm new norm: result) <= DhbFloatingPointMachine new defaultNumericalPrecision.
 	

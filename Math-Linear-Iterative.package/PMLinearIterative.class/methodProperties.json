@@ -1,10 +1,13 @@
 {
 	"class" : {
-		 },
+		"ewtRMSSolverFor:rightHandSide:initialValue:" : "MobiusEng 4/20/2016 15:08",
+		"l1NormSolverFor:rightHandSide:initialValue:" : "MobiusEng 4/20/2016 15:08",
+		"l2NormSolverFor:rightHandSide:initialValue:" : "MobiusEng 4/20/2016 15:08" },
 	"instance" : {
 		"initialValue:" : "MobiusEng 4/11/2016 14:07",
 		"linearOperator:" : "MobiusEng 4/11/2016 13:56",
 		"residual" : "MobiusEng 4/11/2016 13:53",
-		"residualError" : "MobiusEng 4/11/2016 13:55",
+		"residualError" : "MobiusEng 4/20/2016 12:16",
 		"rightHandSideVector" : "MobiusEng 4/11/2016 13:53",
-		"rightHandSideVector:" : "MobiusEng 4/11/2016 13:53" } }
+		"rightHandSideVector:" : "MobiusEng 4/11/2016 13:53",
+		"vectorNorm:" : "MobiusEng 4/20/2016 12:18" } }

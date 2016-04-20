@@ -1,3 +1,0 @@
-operation
-residualError
-	^ residualSquared sqrt

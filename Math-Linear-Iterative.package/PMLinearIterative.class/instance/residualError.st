@@ -1,3 +1,3 @@
 as yet unclassified
 residualError
-	^ self subclassResponsibility
+	^vectorNorm norm: residual

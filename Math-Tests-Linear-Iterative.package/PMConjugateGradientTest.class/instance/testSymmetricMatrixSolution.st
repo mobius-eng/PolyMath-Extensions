@@ -10,9 +10,7 @@ testSymmetricMatrixSolution
 	rhsVector := #(-20 2 0 6 2) asDhbVector.
 	solution := #(2 0 1 3 -1) asDhbVector.
 	initValue := #(1 1 1 1 1) asDhbVector.
-	cg := PMConjugateGradientL2 new.
-	cg linearOperator: matrix; rightHandSideVector: rhsVector; initialValue: initValue.
-	cg desiredPrecision: DhbFloatingPointMachine new defaultNumericalPrecision.
+	cg := PMConjugateGradient l2NormSolverFor: matrix rightHandSide: rhsVector initialValue: initValue.
 	result := cg evaluate - solution.
 	self assert: cg hasConverged.
 	self assert: (result * result) sqrt <= DhbFloatingPointMachine new defaultNumericalPrecision.

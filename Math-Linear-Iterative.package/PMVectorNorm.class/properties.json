@@ -1,0 +1,14 @@
+{
+	"category" : "Math-Linear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MobiusEng 4/20/2016 12:07",
+	"instvars" : [
+		 ],
+	"name" : "PMVectorNorm",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

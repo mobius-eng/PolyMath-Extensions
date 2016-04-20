@@ -17,11 +17,8 @@ testDiffusionProblem
 		w ].
 	rhsVector := #(3 0 0 6) asDhbVector.
 	initValue := #(1 1 1 1) asDhbVector.
-	cg := PMConjugateGradientL2 new.
-	cg linearOperator: diffusionOperator; rightHandSideVector: rhsVector; initialValue: initValue.
-	cg desiredPrecision: DhbFloatingPointMachine new defaultNumericalPrecision.
+	cg := PMConjugateGradient ewtRMSSolverFor: diffusionOperator rightHandSide: rhsVector initialValue: initValue.
 	result := cg evaluate.
 	solution := (diffusionOperator value: result) - rhsVector.
 	self assert: cg hasConverged.
-	self assert: (solution * solution) sqrt <= DhbFloatingPointMachine new defaultNumericalPrecision.
-	
+	self assert: (PMErrorWeightVectorNorm new defaultOfSize: rhsVector size; reference: rhsVector; norm: solution) <= 1.

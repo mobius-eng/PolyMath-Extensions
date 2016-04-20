@@ -1,0 +1,14 @@
+{
+	"category" : "Math-Tests-Linear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PMLUPPlugTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
