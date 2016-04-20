@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"computeInitialValues" : "MobiusEng 4/20/2016 12:14",
+		"errorWeightVector:" : "MobiusEng 4/17/2016 16:57",
+		"evaluateIteration" : "MobiusEng 4/20/2016 15:31",
+		"initialValue:" : "MobiusEng 4/17/2016 15:53",
+		"initialize" : "MobiusEng 4/19/2016 18:05",
+		"linearSolver:" : "MobiusEng 4/19/2016 17:58",
+		"setFunction:" : "MobiusEng 4/17/2016 15:54",
+		"setJacobianOperator:" : "MobiusEng 4/19/2016 17:47" } }

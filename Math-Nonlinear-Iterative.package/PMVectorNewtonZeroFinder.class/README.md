@@ -1,0 +1,1 @@
+I implement globally convergent Newton zero finder for vector-based problem `F(x)=0`.

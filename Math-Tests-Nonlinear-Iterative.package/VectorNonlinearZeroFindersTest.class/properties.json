@@ -1,0 +1,14 @@
+{
+	"category" : "Math-Tests-Nonlinear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VectorNonlinearZeroFindersTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

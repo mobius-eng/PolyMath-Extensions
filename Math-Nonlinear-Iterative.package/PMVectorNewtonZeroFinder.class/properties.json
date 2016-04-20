@@ -1,0 +1,20 @@
+{
+	"category" : "Math-Nonlinear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MobiusEng 4/19/2016 12:11",
+	"instvars" : [
+		"jacobianOperator",
+		"searchStep",
+		"lastFunctionValue",
+		"newFunctionValue",
+		"lineSearch",
+		"linearSolver",
+		"errorWeightVector" ],
+	"name" : "PMVectorNewtonZeroFinder",
+	"pools" : [
+		 ],
+	"super" : "DhbFunctionalIterator",
+	"type" : "normal" }
