@@ -1,0 +1,15 @@
+{
+	"category" : "Math-Scalar-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MobiusEng 4/17/2016 15:45",
+	"instvars" : [
+		"positiveXValue",
+		"negativeXValue" ],
+	"name" : "PMFalsePositionZeroFinder",
+	"pools" : [
+		 ],
+	"super" : "PMBisectionZeroFinder",
+	"type" : "normal" }

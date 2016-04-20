@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"computeInitialValues" : "MobiusEng 4/17/2016 15:11",
+		"evaluateIteration" : "MobiusEng 4/17/2016 15:16",
+		"finalizeIterations" : "MobiusEng 4/17/2016 15:16",
+		"setNegativeX:" : "MobiusEng 4/17/2016 15:13",
+		"setPositiveX:" : "MobiusEng 4/17/2016 15:13" } }

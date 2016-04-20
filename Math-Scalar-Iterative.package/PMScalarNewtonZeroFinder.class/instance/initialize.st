@@ -6,6 +6,6 @@ initialize
 	lineSearchFunctionBlock := [ :t |
 		newFunctionValue := functionBlock value: t * searchStep + result.
 		0.5 * newFunctionValue squared ].
-	lineSearch := PMLineSearch new.
+	lineSearch := PMLineSearchFunctionMinimizer new.
 	lineSearch setFunction:  lineSearchFunctionBlock.
 	^ self

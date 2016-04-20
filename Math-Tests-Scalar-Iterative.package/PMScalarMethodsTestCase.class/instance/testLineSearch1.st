@@ -13,7 +13,7 @@ testLineSearch1
 	g0 := functionBlock value: 0.
 	g1 := functionBlock value: 1.
 	dg0 := 2.0 * g0 negated.
-	xAnswer := (PMLineSearch function: functionBlock valueAtZero: g0 derivativeAtZero: dg0) evaluate.
+	xAnswer := (PMLineSearchFunctionMinimizer function: functionBlock valueAtZero: g0 derivativeAtZero: dg0) evaluate.
 	self assert: (xAnswer <= 0.5) & (xAnswer > 1e-3).
 	self assert: (functionBlock value: xAnswer) < g0.
 	self assert: (functionBlock value: xAnswer) < g1.

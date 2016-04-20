@@ -1,0 +1,15 @@
+{
+	"category" : "Math-Scalar-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MobiusEng 4/17/2016 15:19",
+	"instvars" : [
+		"positiveX",
+		"negativeX" ],
+	"name" : "PMBisectionZeroFinder",
+	"pools" : [
+		 ],
+	"super" : "DhbFunctionalIterator",
+	"type" : "normal" }

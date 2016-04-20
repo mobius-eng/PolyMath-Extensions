@@ -16,7 +16,7 @@
 		"valueAtPreviousResult",
 		"valueAtResult",
 		"minValue" ],
-	"name" : "PMLineSearch",
+	"name" : "PMLineSearchFunctionMinimizer",
 	"pools" : [
 		 ],
 	"super" : "DhbFunctionalIterator",

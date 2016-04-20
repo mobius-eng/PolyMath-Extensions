@@ -3,9 +3,12 @@
 		 },
 	"instance" : {
 		"setUp" : "MobiusEng 4/16/2016 22:45",
-		"testLineSearch1" : "MobiusEng 4/16/2016 22:54",
-		"testLineSearch2" : "MobiusEng 4/16/2016 22:44",
-		"testLineSearch3" : "MobiusEng 4/16/2016 22:44",
+		"testBisection" : "MobiusEng 4/17/2016 15:49",
+		"testBisectionExactZero" : "MobiusEng 4/17/2016 15:49",
+		"testFalsePosition" : "MobiusEng 4/17/2016 15:50",
+		"testLineSearch1" : "MobiusEng 4/17/2016 15:29",
+		"testLineSearch2" : "MobiusEng 4/17/2016 15:29",
+		"testLineSearch3" : "MobiusEng 4/17/2016 15:29",
 		"testScalarNewtonZeroFinder" : "MobiusEng 4/16/2016 22:59",
 		"testScalarNewtonZeroFinder2" : "MobiusEng 4/16/2016 23:00",
 		"testScalarNewtonZeroFinder3" : "MobiusEng 4/16/2016 23:00" } }
