@@ -1,1 +1,0 @@
-I am the simplest preconditioner, identity. I don't do anything and only act as a placeholder.

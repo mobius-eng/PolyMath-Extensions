@@ -1,1 +1,0 @@
-I implement L-infinity norm (max abs value)

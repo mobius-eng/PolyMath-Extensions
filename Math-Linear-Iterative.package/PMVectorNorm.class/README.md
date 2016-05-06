@@ -1,1 +1,0 @@
-I am the root of vector norm classes.

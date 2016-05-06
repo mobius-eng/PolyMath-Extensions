@@ -1,1 +1,0 @@
-I implement L2-norm

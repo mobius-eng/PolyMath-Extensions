@@ -1,1 +1,0 @@
-I implement L1-norm (sum of abs values)

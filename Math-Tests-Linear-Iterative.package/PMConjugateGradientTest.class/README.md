@@ -1,1 +1,0 @@
-I test Conjugate Gradient solver of linear equations with symmetric matrices.

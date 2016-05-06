@@ -1,3 +1,0 @@
-accessing
-relTolerance
-	^ relTolerance
