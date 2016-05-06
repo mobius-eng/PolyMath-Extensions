@@ -1,0 +1,14 @@
+{
+	"category" : "Math-Linear-Iterative",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MobiusEng 4/28/2016 11:42",
+	"instvars" : [
+		 ],
+	"name" : "PMDiagonalSolver",
+	"pools" : [
+		 ],
+	"super" : "PMLinearIterative",
+	"type" : "normal" }

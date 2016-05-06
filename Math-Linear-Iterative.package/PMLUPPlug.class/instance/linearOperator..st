@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 linearOperator: matrix
 	lupDecomposition := nil.
 	precision := 2.0.

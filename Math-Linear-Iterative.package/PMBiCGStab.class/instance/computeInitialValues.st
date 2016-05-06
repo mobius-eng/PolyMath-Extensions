@@ -1,4 +1,4 @@
-as yet unclassified
+operation
 computeInitialValues
 	initResidual := rightHandSideVector - (functionBlock value: result).
 	residual := initResidual copy.

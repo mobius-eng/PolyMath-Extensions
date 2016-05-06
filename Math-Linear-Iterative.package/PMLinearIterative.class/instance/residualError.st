@@ -1,3 +1,3 @@
-as yet unclassified
+operation
 residualError
-	^vectorNorm norm: residual
+	^vectorNorm norm: residual relativeTo: rightHandSideVector

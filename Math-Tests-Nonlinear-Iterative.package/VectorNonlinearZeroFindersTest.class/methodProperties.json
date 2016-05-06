@@ -2,5 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"checkDiffusionSolution:with:" : "MobiusEng 4/27/2016 16:25",
+		"diffusionFunction:dx:" : "MobiusEng 4/27/2016 15:31",
+		"diffusionJacobian:dx:" : "MobiusEng 4/27/2016 15:33",
+		"setupDiffusionSolver:dx:" : "MobiusEng 4/27/2016 15:39",
+		"testJacobiNewtonDiffusion" : "MobiusEng 4/28/2016 12:29",
 		"testNewton2D" : "MobiusEng 4/20/2016 15:35",
-		"testNewton2D2" : "MobiusEng 4/20/2016 15:41" } }
+		"testNewton2D2" : "MobiusEng 4/20/2016 15:41",
+		"testNewtonDiffusion" : "MobiusEng 4/28/2016 12:13",
+		"testNewtonDiffusionBiCG" : "MobiusEng 4/28/2016 12:13" } }

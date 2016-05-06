@@ -1,3 +1,3 @@
 accessing
 reference: anObject
-	reference := anObject
+	reference := self vectorize: anObject

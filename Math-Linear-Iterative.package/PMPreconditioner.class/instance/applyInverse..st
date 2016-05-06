@@ -1,3 +1,3 @@
-as yet unclassified
+operation
 applyInverse: aVector
 	^ self subclassResponsibility

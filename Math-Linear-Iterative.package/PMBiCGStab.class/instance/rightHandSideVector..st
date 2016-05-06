@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 rightHandSideVector: anObject
 	super rightHandSideVector: anObject.
 	rhsSquared := rightHandSideVector * rightHandSideVector.

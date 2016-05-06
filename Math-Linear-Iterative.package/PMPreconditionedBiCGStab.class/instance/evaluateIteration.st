@@ -1,4 +1,4 @@
-as yet unclassified
+operation
 evaluateIteration
 	| y z t u beta newRho |
 	newRho := initResidual * residual.

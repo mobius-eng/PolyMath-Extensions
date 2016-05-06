@@ -1,3 +1,3 @@
-as yet unclassified
+operation
 applyDirect: aVector
 	^ self subclassResponsibility

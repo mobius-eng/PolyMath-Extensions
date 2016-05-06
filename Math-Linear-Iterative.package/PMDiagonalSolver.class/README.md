@@ -1,0 +1,1 @@
+I solve diagonal matrix equations a_ii x_i  = b_i by providing common with other solvers interface.

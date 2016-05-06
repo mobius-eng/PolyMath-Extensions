@@ -1,3 +1,3 @@
-as yet unclassified
+operation
 residualError
-	^ 0
+	^ precision

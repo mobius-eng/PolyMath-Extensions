@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 uniformSize: anInteger absTolerance: atol relTolerance: rtol
 	absTolerance := DhbVector new: anInteger withAll: atol.
 	relTolerance := DhbVector new: anInteger withAll: rtol.

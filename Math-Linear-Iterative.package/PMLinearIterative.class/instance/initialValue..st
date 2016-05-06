@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 initialValue: aVector
-	result := aVector
+	result := aVector copy

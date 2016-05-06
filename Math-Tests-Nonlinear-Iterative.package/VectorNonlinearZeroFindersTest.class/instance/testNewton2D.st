@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNewton2D
 	| solver diff |
 	solver := PMVectorNewtonZeroFinder new.

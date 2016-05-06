@@ -1,4 +1,4 @@
-operating
+operation
 rootMeanSquareNormOf: aVector withReference: ref
 	| result |
 	result := 0.

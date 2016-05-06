@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"evaluate" : "MobiusEng 4/19/2016 13:03",
-		"initialize" : "MobiusEng 4/19/2016 13:00",
+		"initialize" : "MobiusEng 4/28/2016 11:57",
 		"linearOperator:" : "MobiusEng 4/19/2016 13:00",
-		"residualError" : "MobiusEng 4/19/2016 13:02",
-		"setFunction:" : "MobiusEng 4/19/2016 12:58" } }
+		"residualError" : "MobiusEng 4/28/2016 11:57" } }

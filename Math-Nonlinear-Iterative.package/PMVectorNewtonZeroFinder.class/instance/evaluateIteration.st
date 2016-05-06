@@ -5,7 +5,7 @@ evaluateIteration
 	"Calculate new Newton step"
 	lastFunctionValue := newFunctionValue.
 	linearSolver linearOperator: (jacobianOperator value: result);
-		rightHandSideVector: lastFunctionValue; initialValue: result.
+		rightHandSideVector: lastFunctionValue; initialValue: searchStep negated.
 	searchStep := linearSolver evaluate negated.
 	linearSolver hasConverged ifFalse: [ PMStopIterations new signal ].
 	"Initialize variables for line search"

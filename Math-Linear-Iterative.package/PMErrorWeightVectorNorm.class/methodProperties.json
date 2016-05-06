@@ -3,13 +3,17 @@
 		 },
 	"instance" : {
 		"absTolerance" : "MobiusEng 4/17/2016 16:32",
-		"absTolerance:" : "MobiusEng 4/17/2016 16:32",
+		"absTolerance:" : "MobiusEng 4/27/2016 14:49",
+		"absTolerance:relTolerance:" : "MobiusEng 4/27/2016 14:51",
 		"defaultOfSize:" : "MobiusEng 4/17/2016 16:49",
 		"norm:" : "MobiusEng 4/20/2016 12:09",
+		"norm:relativeTo:" : "MobiusEng 4/27/2016 22:35",
 		"reference" : "MobiusEng 4/17/2016 16:32",
-		"reference:" : "MobiusEng 4/17/2016 16:32",
+		"reference:" : "MobiusEng 4/27/2016 14:50",
 		"relTolerance" : "MobiusEng 4/17/2016 16:32",
-		"relTolerance:" : "MobiusEng 4/17/2016 16:32",
+		"relTolerance:" : "MobiusEng 4/27/2016 14:49",
 		"rootMeanSquareNormOf:" : "MobiusEng 4/17/2016 16:42",
 		"rootMeanSquareNormOf:withReference:" : "MobiusEng 4/20/2016 15:13",
-		"uniformSize:absTolerance:relTolerance:" : "MobiusEng 4/17/2016 16:48" } }
+		"size" : "MobiusEng 4/27/2016 14:42",
+		"uniformSize:absTolerance:relTolerance:" : "MobiusEng 4/17/2016 16:48",
+		"vectorize:" : "MobiusEng 4/27/2016 14:49" } }

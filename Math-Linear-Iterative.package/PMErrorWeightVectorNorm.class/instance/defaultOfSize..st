@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 defaultOfSize: anInteger
 	^ self uniformSize: anInteger
 		absTolerance: DhbFloatingPointMachine new defaultNumericalPrecision

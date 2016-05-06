@@ -1,3 +1,3 @@
 accessing
 absTolerance: anObject
-	absTolerance := anObject
+	absTolerance := self vectorize: anObject

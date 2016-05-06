@@ -1,3 +1,3 @@
 accessing
 relTolerance: anObject
-	relTolerance := anObject
+	relTolerance := self vectorize: anObject

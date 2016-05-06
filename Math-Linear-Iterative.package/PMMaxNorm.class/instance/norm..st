@@ -1,4 +1,4 @@
-as yet unclassified
+operation
 norm: aVector
 	^ aVector inject: 0 into: [ :sum :each |
 		| x |
