@@ -5,8 +5,6 @@ date: "2016-05-06 14:45:13 +0200"
 categories: numerical-methods scalar
 ---
 
-## Line Search Algorithm
-
 It is often happens that minimization algorithms (including zero finders, such as Newton's method or Broyden's method) fail to converge if initial approximation was chosen far away from the actual solution. Nevertheless, it is possible to improve the current approximation in the direction of minimization even if the method suggests too large a step that overshoots the solution. Consider trivial example of solving $$\operatorname{atan}{x}=0$$ with solution $$x=0$$ using Newton's method:
 
 $$
@@ -22,7 +20,7 @@ $$
 However, it possible to recover from this divergence since Newton's method takes the step towards the minimization of $$f(x) =\vert\operatorname{atan}{x}\vert$$, but overshoots. Thus, it is reasonable to find a better approximation somewhere between $$x_0$$ and $$x_1$$. One way to do this is to use bisection method. Indeed, we know the minimum exists between these two points. So, the first point to try would be $$x'=(x_0+x_1)/2$$ (see R.W. Hamming *Numerical methods for scientists and engineers*). A different approach was suggested in *Numerical Recipes* by W.H. Press *et al*: we usually know $$f(x_0)$$, $$D[f](x_0)$$ (derivative of $$f(x)$$ at $$x_0$$) and $$f(x_1)$$ --- these points can be used to approximate $$f(x)$$ on the line between $$x_0$$ and $$x_1$$ via quadratic function. Since this method is also applicable for vector-valued problem $$\boldsymbol{F}(\boldsymbol{x})=\boldsymbol{0}$$ for $$\boldsymbol{F}:\mathbb{R}^n\to\mathbb{R}^n$$, the following derivation will be conducted for a more general vector-valued problem.
 
 
-### Derivation
+## Derivation
 
 Consider the iteration of a non-linear solver that suggests to take the step $$\boldsymbol{p} = \boldsymbol{x}_1 - \boldsymbol{x}_0$$. The line search algorithm aims to find such $$\lambda$$ that $$\boldsymbol{x}_0+\lambda\boldsymbol{p}$$ will minimize the absolute value of $$\boldsymbol{F}(\boldsymbol{x})$$. This can be stated as a minimization of $$f(\boldsymbol{x})=1/2\boldsymbol{F}(\boldsymbol{x})\cdot\boldsymbol{F}(\boldsymbol{x})$$, $$f:\mathbb{R}^n\to\mathbb{R}$$. Since it aims to find the minimum on the line $$(\boldsymbol{x}_0,\boldsymbol{x}_1)$$, we can simplify this problem further by introducing $$g(\lambda)=f(\boldsymbol{x}_0+\lambda\boldsymbol{p})$$ and minimizing it for $$\lambda\in(0,1)$$. Derivative of $$g(\lambda)$$:
 
@@ -74,7 +72,7 @@ $$
 
 Finally, to prevent $$\lambda$$ to be too large or too small, at each step it is forced to fall in $$(0.1\lambda_1, 0.5\lambda_1)$$. If $$\lambda$$ becomes too small for the method to converge (say, below $$10^{-5}$$), the method fails.
 
-### Code (with annotations)
+## Code (with annotations)
 
 In PolyMath-Extensions line search is implemented as a class `PMLineSearchFunctionMinimizer` in package `Math-Scalar-Iterative`. This class is descendant of `DhbIterativeProcess` (`PMIterativeProcess`), thus, main functionality is implemented in the method `evaluateIteration`:
 
@@ -120,7 +118,7 @@ PMLineSearchFunctionMinimizer>>computeInitialValues
 			ifTrue: [ precision := 0.0. PMStopIterations new signal ].
 ```
 
-### Example of use
+## Example of use
 
 Line search is not intended to be used directly by the user, but rather by an implementer of other methods. Direct use examples can be found in test-case class `PMScalarMethodsTestCase`. Here is the example of its use in vector-vales Newton's method:
 
